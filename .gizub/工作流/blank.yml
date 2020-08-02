@@ -1,0 +1,5 @@
+ - uses: actions/checkout@v2	   
+     - name: Install IBM CLI	  
+       run: curl -sL https://ibm.biz/idt-installer | bash	
+     - name: Login IBM Cloud	   
+       run: |
